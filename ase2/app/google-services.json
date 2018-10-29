@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1022099796769",
+    "firebase_url": "https://jasti-d83b5.firebaseio.com",
+    "project_id": "jasti-d83b5",
+    "storage_bucket": "jasti-d83b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022099796769:android:5cf8c663dcccaf57",
+        "android_client_info": {
+          "package_name": "com.example.anushajasti.ase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022099796769-s5b602cmei8r2trmebagm7opro5vg0he.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7-F-wmus57UbJT8ayhQryG_Sbx-XoQBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
