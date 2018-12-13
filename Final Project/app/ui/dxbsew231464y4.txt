@@ -32,3 +32,4 @@ Each and every authenticated user has a personal user profile which has the basi
 
 On clicking the "Write a Review Button" the user is redirected to the review page and can write review of any product starting with the product name. These reviews are stored in the database and retreived when requested.
 
+s
