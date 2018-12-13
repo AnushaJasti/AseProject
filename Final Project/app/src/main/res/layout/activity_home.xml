@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+
+    <EditText
+        android:id="@+id/searchterm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Search Product"
+        android:inputType="textPersonName" />
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/searchterm"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cam"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:onClick="opencam"
+            android:text="Use Camera" />
+        <Button
+            android:id="@+id/textout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:text="search"
+            android:onClick="search"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/lblWal"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/linear"
+        android:text="Walmart"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/lblWal" />
+    <TextView
+        android:id="@+id/lblEbay"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/list"
+        android:text="Ebay"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <ListView
+        android:id="@+id/ebaylist"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/lblEbay" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/btmNav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_button_border_color_focused"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"/>
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeleteItem">
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="150dp" />
+    <TextView
+        android:id="@+id/lblTitleDisplay"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/lblTitle"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/lblTitleDisplay"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/lblDescDisplay"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/lblTitle"
+        android:layout_height="wrap_content"
+        android:text="Product Description"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/lblDesc"
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/lblDescDisplay"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/lblPriceDisplay"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/lblDesc"
+        android:layout_height="wrap_content"
+        android:text="Product Price"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/lblPrice"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/lblPriceDisplay"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/btnBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblPrice"
+        android:layout_centerHorizontal="true"
+        android:text="Buy"
+        android:onClick="openProduct"/>
+
+</RelativeLayout>

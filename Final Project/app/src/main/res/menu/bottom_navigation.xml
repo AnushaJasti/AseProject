@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navhome"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/navreview"
+        android:icon="@drawable/star"
+        android:title="Reviews"/>
+    <item
+        android:id="@+id/navuserprofile"
+        android:icon="@drawable/user"
+        android:title="User Profile"/>
+    <item
+        android:id="@+id/navlogout"
+        android:icon="@drawable/logout"
+        android:title="Logout"/>
+</menu>
